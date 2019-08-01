@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-08-01T09:00:00.000000Z",
+  "genesis_time": "2019-08-01T10:00:00.000000Z",
   "chain_id": "hygieia-1",
   "consensus_params": {
     "block": {
@@ -88,7 +88,7 @@
       },
       "params": {
         "unbonding_time": "1814400000000000",
-        "max_validators": 21,
+        "max_validators": 3,
         "max_entries": 7,
         "bond_denom": "umed"
       },
