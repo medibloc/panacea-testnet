@@ -1,0 +1,319 @@
+{
+  "genesis_time": "2019-08-01T09:00:00.000000Z",
+  "chain_id": "hygieia-1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "4194304",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "panacea18n8gkmatdrfms8xe6fpq90ysw5k8wtz7etqes5",
+        "coins": [
+          {
+            "denom": "umed",
+            "amount": "1000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "panacea1qjnq8zufus54zyzk44z6k4zp3yawy2hnhhlm0u",
+        "coins": [
+          {
+            "denom": "umed",
+            "amount": "1000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "panacea14q8n0sttfv7j8gmdawnsdeyjthcjfg9jgm9cq2",
+        "coins": [
+          {
+            "denom": "umed",
+            "amount": "1000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      }
+    ],
+    "auth": {
+      "collected_fees": null,
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "pool": {
+        "not_bonded_tokens": "3000000000000000",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 21,
+        "max_entries": 7,
+        "bond_denom": "umed"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.050000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "umed",
+        "inflation_rate_change": "0.020000000000000000",
+        "inflation_max": "0.060000000000000000",
+        "inflation_min": "0.040000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "31557600"
+      }
+    },
+    "distr": {
+      "fee_pool": {
+        "community_pool": null
+      },
+      "community_tax": "0.000000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "",
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "umed",
+            "amount": "100000000000"
+          }
+        ],
+        "max_deposit_period": "1209600000000000"
+      },
+      "voting_params": {
+        "voting_period": "1209600000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "umed",
+        "amount": "1000000000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "1814400000000000",
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "aol": {
+      "owners": {},
+      "topics": {},
+      "writers": {},
+      "records": {}
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "test-1",
+                  "identity": "",
+                  "website": "https://medibloc.org",
+                  "details": "MediBloc Validator 1"
+                },
+                "commission": {
+                  "rate": "0.500000000000000000",
+                  "max_rate": "0.500000000000000000",
+                  "max_change_rate": "0.500000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "panacea14q8n0sttfv7j8gmdawnsdeyjthcjfg9jgm9cq2",
+                "validator_address": "panaceavaloper14q8n0sttfv7j8gmdawnsdeyjthcjfg9j0e9cu5",
+                "pubkey": "panaceavalconspub1zcjduepqh4fzuk6a2fhrzwukvwnjj7zwp9chxyugltkvrdn2l7g222j8pthse60lnl",
+                "value": {
+                  "denom": "umed",
+                  "amount": "800000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AmEWLzL25V9tutXtWlPM5VALgyyvQjHWYb6XXVZZp9ak"
+              },
+              "signature": "HyV9bTzaKxa6kPcLoKGkZlAre2j7k4B2sPeOjzT87T1GCL3QLK2zSZF8Ac07u1CHHmgFdsM3Z7e0q7A6U23vKA=="
+            }
+          ],
+          "memo": "medi-1@0.0.0.0:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "test-2",
+                  "identity": "",
+                  "website": "https://medibloc.org",
+                  "details": "MediBloc Validator 2"
+                },
+                "commission": {
+                  "rate": "0.500000000000000000",
+                  "max_rate": "0.500000000000000000",
+                  "max_change_rate": "0.500000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "panacea1qjnq8zufus54zyzk44z6k4zp3yawy2hnhhlm0u",
+                "validator_address": "panaceavaloper1qjnq8zufus54zyzk44z6k4zp3yawy2hns4lmnz",
+                "pubkey": "panaceavalconspub1zcjduepqugee0tjvwfesyj2lgha6m3pspztn6ycy82wyjugy3pra20gvl2fs2zjccy",
+                "value": {
+                  "denom": "umed",
+                  "amount": "800000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "Asm/VM+juph5qlujeW1Fywe+aorf9hDx9vubCc2BYi+T"
+              },
+              "signature": "QCx4eMq9VIYSn8LyrDP2sY1iXOYximk1zJcPJ8ZTYMkxNcARk7Ay0/uzsQjXFXZ8IClKj9dSUq6I/Np+K+sJ2A=="
+            }
+          ],
+          "memo": "medi-2@0.0.0.0:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "test-3",
+                  "identity": "",
+                  "website": "https://medibloc.org",
+                  "details": "MediBloc Validator 3"
+                },
+                "commission": {
+                  "rate": "0.500000000000000000",
+                  "max_rate": "0.500000000000000000",
+                  "max_change_rate": "0.500000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "panacea18n8gkmatdrfms8xe6fpq90ysw5k8wtz7etqes5",
+                "validator_address": "panaceavaloper18n8gkmatdrfms8xe6fpq90ysw5k8wtz77fqev2",
+                "pubkey": "panaceavalconspub1zcjduepqh62h9njsharujdxjf2s6vftzhslm9s0mxyhxdu4gupc58m3f23cql7mhck",
+                "value": {
+                  "denom": "umed",
+                  "amount": "800000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A1jBfdInO1r6wH8jhWK5fpYpB3OYD8v/PgIrK2VyqGzT"
+              },
+              "signature": "ULqAeZ/ZUJo9LFMa2dJwcGBZ6VsZg3wA8s4+AKfcNvRDT38XKat99P+HBWN3tneWOHhoaA/2pcWDD8e6GbhCeQ=="
+            }
+          ],
+          "memo": "medi-3@0.0.0.0:26656"
+        }
+      }
+    ]
+  }
+}
