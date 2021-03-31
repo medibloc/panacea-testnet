@@ -7,8 +7,8 @@ This repo collects the genesis and configuration files for the various Panacea t
 ## General Testnet
 
 - Version: [v1.3.3](https://github.com/medibloc/panacea-core/releases/tag/v1.3.3)
-- Chain ID: `hygieia-3`
-- Genesis file: https://github.com/medibloc/panacea-networks/raw/master/hygieia-3/genesis.json
+- Chain ID: `hygieia-4`
+- Genesis file: https://github.com/medibloc/panacea-networks/raw/master/hygieia-4/genesis.json
 
 ### Persistent Peers
 
