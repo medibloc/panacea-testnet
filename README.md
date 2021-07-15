@@ -1,14 +1,13 @@
 # Panacea Testnet Networks
-![banner](./banner.png)
 
 This repo collects the genesis and configuration files for the various Panacea testnets. 
 
 
 ## General Testnet
 
-- Version: [v1.3.3](https://github.com/medibloc/panacea-core/releases/tag/v1.3.3)
-- Chain ID: `hygieia-4`
-- Genesis file: https://github.com/medibloc/panacea-networks/raw/master/hygieia-4/genesis.json
+- Version: [v2.0.0](https://github.com/medibloc/panacea-core/releases/tag/v2.0.0)
+- Chain ID: `hygieia-5`
+- Genesis file: https://github.com/medibloc/panacea-networks/raw/master/hygieia-5/genesis.json
 
 ### Persistent Peers
 
