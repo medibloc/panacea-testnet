@@ -11,7 +11,7 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 
 - Version: Panacea Core [v2.0.1](https://github.com/medibloc/panacea-core/releases/tag/v2.0.1)
 - Chain ID: `hygieia-5`
-- Genesis file: https://github.com/medibloc/panacea-networks/raw/master/hygieia-5/genesis.json
+- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-5/genesis.json
 
 
 ## Seed Nodes
