@@ -1,8 +1,7 @@
 # Panacea Testnet
 
 The Panacea Testnet is a playground to test transactions and queries.
-It doesn't support the Faucet and most of tokens were already bonded.
-So, if you want to test your own validator nodes, please use the [Panacea Public Testnet](https://github.com/medibloc/panacea-public-testnet) instead.
+The faucet will be provided soon.
 
 This repo contains genesis files of all historical chains of the Panacea Testnet.
 
