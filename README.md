@@ -1,8 +1,7 @@
 # Panacea Testnet
 
 The Panacea Testnet is a playground to test transactions and queries.
-It doesn't support the Faucet and most of tokens were already bonded.
-So, if you want to test your own validator nodes, please use the [Panacea Public Testnet](https://github.com/medibloc/panacea-public-testnet) instead.
+The faucet will be provided soon.
 
 This repo contains genesis files of all historical chains of the Panacea Testnet.
 
@@ -24,3 +23,13 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 ## Node Operations Guide
 
 See the [Join the Network](https://medibloc.gitbook.io/panacea-core/guide/join-the-network) guide.
+
+
+## Public Endpoints
+
+Several public endpoints are provided by MediBloc.
+**But, we highly recommend to run your own full node for high availability and reliability.**
+
+- Cosmos REST: https://testnet-api.gopanacea.org
+- Cosmos gRPC: https://testnet-grpc.gopanacea.org
+- Tendermint RPC: https://testnet-rpc.gopanacea.org
