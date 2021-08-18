@@ -33,3 +33,7 @@ Several public endpoints are provided by MediBloc.
 - Cosmos REST: https://testnet-api.gopanacea.org
 - Cosmos gRPC: https://testnet-grpc.gopanacea.org
 - Tendermint RPC: https://testnet-rpc.gopanacea.org
+
+## Explorer
+
+You can use an [explorer](https://testnet-explorer.gopanacea.org/) based on Big-Dipper.
