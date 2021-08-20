@@ -13,7 +13,11 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 - Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-5/genesis.json
 
 
-## Seed Nodes
+## Persistent Peers
+
+A public node below is operated by MediBloc with [PEX](https://docs.tendermint.com/master/spec/p2p/messages/pex.html) enabled.
+
+You can add that to the `persistent_peers` in your `config.toml`. For more details, please see the [Tendermint document](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#peers).
 
 ```
 22ef7df8f45ae6c31cfd65aade415549a3d96f98@52.78.196.16:26656
@@ -33,6 +37,7 @@ Several public endpoints are provided by MediBloc.
 - Cosmos REST: https://testnet-api.gopanacea.org
 - Cosmos gRPC: https://testnet-grpc.gopanacea.org
 - Tendermint RPC: https://testnet-rpc.gopanacea.org
+
 
 ## Explorer
 
