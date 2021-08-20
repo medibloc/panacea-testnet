@@ -15,9 +15,9 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 
 ## Persistent Peers
 
-A public node below is operated by MediBloc with [PEX](https://docs.tendermint.com/master/spec/p2p/messages/pex.html) enabled.
+These public nodes below are operated by MediBloc with [PEX](https://docs.tendermint.com/master/spec/p2p/messages/pex.html) enabled.
 
-You can add that to the `persistent_peers` in your `config.toml`. For more details, please see the [Tendermint document](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#peers).
+You can add them to the `persistent_peers` in your `config.toml`. For more details, please see the [Tendermint document](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#peers).
 
 ```
 22ef7df8f45ae6c31cfd65aade415549a3d96f98@52.78.196.16:26656
