@@ -51,5 +51,5 @@ You can send credit requests to the faucet by the following HTTP POST. Then, 10 
 curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"denom":"umed","address":"<your_address>"}' \
-  https://testnetnet-faucet.gopanacea.org/credit
+  https://testnet-faucet.gopanacea.org/credit
 ```
