@@ -42,3 +42,14 @@ Several public endpoints are provided by MediBloc.
 ## Explorer
 
 You can use an [explorer](https://testnet-explorer.gopanacea.org/) based on Big-Dipper.
+
+
+## Faucet
+
+You can send credit requests to the faucet by the following HTTP POST. Then, 10 MED will be transferred to your address. The faucet can handle only 5 requests per second.
+```
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"denom":"umed","address":"<your_address>"}' \
+  https://testnet-faucet.gopanacea.org/credit
+```
