@@ -8,9 +8,9 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 
 ## Intro
 
-- Version: Panacea Core [v2.0.1](https://github.com/medibloc/panacea-core/releases/tag/v2.0.1)
-- Chain ID: `hygieia-5`
-- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-5/genesis.json
+- Version: Panacea Core [v2.0.2](https://github.com/medibloc/panacea-core/releases/tag/v2.0.2)
+- Chain ID: `hygieia-6`
+- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-6/genesis.json
 
 
 ## Persistent Peers
