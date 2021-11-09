@@ -1,10 +1,10 @@
 # Panacea Testnet
 
 The Panacea Testnet is a playground to test transactions and queries.
-The faucet will be provided soon.
 
 This repo contains genesis files of all historical chains of the Panacea Testnet.
 
+If you want to run with [v2.0.2](https://github.com/medibloc/panacea-core/releases/tag/v2.0.2), please use the [snapshot](./hygieia-6/snapshot.md) below.
 
 ## Intro
 
