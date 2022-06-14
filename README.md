@@ -4,13 +4,11 @@ The Panacea Testnet is a playground to test transactions and queries.
 
 This repo contains genesis files of all historical chains of the Panacea Testnet.
 
-If you want to run with [v2.0.2](https://github.com/medibloc/panacea-core/releases/tag/v2.0.2), please use the [snapshot](./hygieia-6/snapshot.md) below.
-
 ## Intro
 
-- Version: Panacea Core [v2.0.2](https://github.com/medibloc/panacea-core/releases/tag/v2.0.2)
-- Chain ID: `hygieia-6`
-- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-6/genesis.json
+- Version: Panacea Core [v2.0.3](https://github.com/medibloc/panacea-core/releases/tag/v2.0.3)
+- Chain ID: `hygieia-7`
+- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-7/genesis.json
 
 
 ## Persistent Peers
