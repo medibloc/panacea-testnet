@@ -6,9 +6,9 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 
 ## Intro
 
-- Version: Panacea Core [v2.0.3](https://github.com/medibloc/panacea-core/releases/tag/v2.0.3)
-- Chain ID: `hygieia-7`
-- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-7/genesis.json
+- Version: Panacea Core [v2.1.0-alpha.3](https://github.com/medibloc/panacea-core/releases/tag/v2.1.0-alpha.3)
+- Chain ID: `hygieia-9`
+- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-9/genesis.json
 
 
 ## Persistent Peers
@@ -18,14 +18,14 @@ These public nodes below are operated by MediBloc with [PEX](https://docs.tender
 You can add them to the `persistent_peers` in your `config.toml`. For more details, please see the [Tendermint document](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#peers).
 
 ```
-d8b4c1dddfd03d632c8c73c4e15c32eca5df5845@54.180.204.250:26656
-23510ecf0fe36fbb8ee3d161777c6c75a863eb5b@3.34.67.40:26656
+c3fd461b3e2b0d7ff75034e94d295440fc1faa2d@54.180.204.250:26656
+3a0cf95d83e891163c181612dad0db259f310772@3.34.67.40:26656
 ```
 
 
 ## Node Operations Guide
 
-See the [Join the Network](https://medibloc.gitbook.io/panacea-core/guide/join-the-network) guide.
+See the [Join Testnet](https://docs.gopanacea.org/for-validators/3-join-mainnet-testnet) guide.
 
 
 ## Public Endpoints
