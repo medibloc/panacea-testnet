@@ -6,9 +6,9 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 
 ## Intro
 
-- Version: Panacea Core [v2.0.6](https://github.com/medibloc/panacea-core/releases/tag/v2.0.6)
-- Chain ID: `hygieia-9`
-- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-9/genesis.json
+- Version: Panacea Core [v2.0.7-2](https://github.com/medibloc/panacea-core/releases/tag/v2.0.7-2)
+- Chain ID: `hygieia-1`
+- Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-1/genesis.json
 
 
 ## Persistent Peers
@@ -18,8 +18,7 @@ These public nodes below are operated by MediBloc with [PEX](https://docs.tender
 You can add them to the `persistent_peers` in your `config.toml`. For more details, please see the [Tendermint document](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#peers).
 
 ```
-c3fd461b3e2b0d7ff75034e94d295440fc1faa2d@54.180.204.250:26656
-3a0cf95d83e891163c181612dad0db259f310772@3.34.67.40:26656
+91b85332b057c12d396c013940010d89bfaeeb02@54.180.204.250:26656
 ```
 
 
