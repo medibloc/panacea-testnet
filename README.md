@@ -18,7 +18,7 @@ These public nodes below are operated by MediBloc with [PEX](https://docs.tender
 You can add them to the `persistent_peers` in your `config.toml`. For more details, please see the [Tendermint document](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#peers).
 
 ```
-91b85332b057c12d396c013940010d89bfaeeb02@54.180.204.250:26656
+2fa36b0c6aabac0cd0dfb1634e95c66ff831edb6@54.180.204.250:26656
 ```
 
 
