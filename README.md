@@ -6,25 +6,20 @@ This repo contains genesis files of all historical chains of the Panacea Testnet
 
 ## Intro
 
-- Version: Panacea Core [v2.0.7-2](https://github.com/medibloc/panacea-core/releases/tag/v2.0.7-2)
+- Version: Panacea Core [v2.3.1](https://github.com/medibloc/panacea-core/releases/tag/v2.3.1)
 - Chain ID: `hygieia-1`
 - Genesis file: https://github.com/medibloc/panacea-testnet/raw/master/hygieia-1/genesis.json
 
 
 ## Persistent Peers
 
-These public nodes below are operated by MediBloc with [PEX](https://docs.tendermint.com/master/spec/p2p/messages/pex.html) enabled.
+The public node below is operated by MediBloc with [PEX](https://docs.cosmos.network/cometbft/latest/spec/p2p/legacy-docs/P2P-Config) enabled.
 
-You can add them to the `persistent_peers` in your `config.toml`. For more details, please see the [Tendermint document](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#peers).
+You can add it to the `persistent_peers` in your `config.toml`. For more details, please see the [CometBFT documentation](https://docs.cosmos.network/cometbft/latest/docs/core/Using-CometBFT).
 
 ```
 2fa36b0c6aabac0cd0dfb1634e95c66ff831edb6@54.180.204.250:26656
 ```
-
-
-## Node Operations Guide
-
-See the [Join Testnet](https://docs.gopanacea.org/for-validators/3-join-mainnet-testnet) guide.
 
 
 ## Public Endpoints
@@ -34,12 +29,7 @@ Several public endpoints are provided by MediBloc.
 
 - Cosmos REST: https://testnet-api.gopanacea.org
 - Cosmos gRPC: https://testnet-grpc.gopanacea.org
-- Tendermint RPC: https://testnet-rpc.gopanacea.org
-
-
-## Explorer
-
-You can use an [explorer](https://testnet-explorer.gopanacea.org/) based on Big-Dipper.
+- CometBFT RPC: https://testnet-rpc.gopanacea.org
 
 
 ## Faucet
